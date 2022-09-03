@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/backImg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    height: max-content;    /* ! NOTICATION */
+}
+/*! HEADER SECTION */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    border-bottom: 2px solid rgba(247, 8, 8, 0.2);
+    height: 60px;               /* ! NOTICATION */
+}
+header .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+    width: 60%;
+    list-style-type: none;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header .linkBtn{
+    color: rgb(214, 52, 52);
+    border: 2px solid rgb(214, 52, 52, 0.3);
+    background-color: hsl(210, 2%, 21%, 0.3);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+/*! HEADER SECTION END */
+
+/* ! HERO SECTION START */
+.hero{
+    color: #fff;
+    height: calc(99.7vh - 60px);    /* ! NOTICATION */
+    display: flex;                  /* ! NOTICATION */
+    align-items: center;            /* ! NOTICATION */
+    justify-content: center;        /* ! NOTICATION */
+    flex-direction: column;         /* ! NOTICATION */
+    text-align: center;
+}
+.hero .heroContent{
+    margin-top: -5rem;     /* ! NOTICATION */
+}
+.hero .heroContent h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.hero .heroContent p{
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+.hero .heroBtn a{
+    margin: 0 30px 0 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 30, 30);
+    text-decoration: none;
+    transition: all 0.1s ease;
+
+    color: rgba(217, 190, 190, 1);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: hsl(210, 2%, 21%, 0.3);
+}
+.hero .heroBtn a:hover{
+    color: #fff;
+}
+/* ! HERO SECION END */
